@@ -1,10 +1,10 @@
 ==  Cwblog ==
 =========
 
-ThemeKraft Starter Theme
+Carawebs WordPress Starter Theme
 
 
-Hi. I'm a starter theme called ` Cwblog`. I'm a theme meant for hacking so don't use me as just as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+Hi. I'm a starter theme called ` Cwblog`, based on the excellent _tk theme: https://github.com/Themekraft/_tk. I'm a theme meant for hacking so don't use me as just as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
 
 My ultra-minimal CSS might make me look like theme tartare but that means less stuff to get in your way when you're designing your awesome theme. Here are some of the other more interesting things you'll find here:
 
@@ -21,21 +21,21 @@ My ultra-minimal CSS might make me look like theme tartare but that means less s
 == Getting Started ==
 ---------------------
 
-If you want to keep it simple, head over to http://underscores.me and generate your ` Cwblog` based theme from there. You just input the name of the theme you want to create, click the "Generate" button, and you get your ready-to-awesomize starter theme.
+If you want to keep it simple, head over to http://underscores.me and generate your ` _tk` based theme from there. You just input the name of the theme you want to create, click the "Generate" button, and you get your ready-to-awesomize starter theme.
 
-If you want to set things up manually, download ` Cwblog` from github. The first thing you want to do is copy the ` Cwblog` directory and change the name to something else - Like, say, `megatherium` - then you'll need to do a three-step find and replace on the name in all the templates.
+If you want to set things up manually, download ` _tk` from github. The first thing you want to do is copy the ` _tk` directory and change the name to something else - Like, say, `megatherium` - then you'll need to do a three-step find and replace on the name in all the templates.
 
-1. Search for `'cwblog'` (inside single quotations) to capture the text domain.
-2. Search for `cwblog_` to capture all the function names.
-3. Search for <code>&nbsp; Cwblog</code> (with a space before it) to capture DocBlocks.
-4. Search for ` Cwblog-` to capture prefixed handles.
+1. Search for `'_tk'` (inside single quotations) to capture the text domain.
+2. Search for `_tk_` to capture all the function names.
+3. Search for <code>&nbsp; _tk</code> (with a space before it) to capture DocBlocks.
+4. Search for ` _tk-` to capture prefixed handles.
 
 OR
 
-* Search for: `'cwblog'` and replace with: `'megatherium'`
-* Search for: `cwblog_` and replace with: `megatherium_`
-* Search for: <code>&nbsp; Cwblog</code> and replace with: <code>&nbsp;Megatherium</code>
-* Search for: ` Cwblog-` and replace with: `megatherium-`
+* Search for: `'_tk'` and replace with: `'megatherium'`
+* Search for: `_tk_` and replace with: `megatherium_`
+* Search for: <code>&nbsp; _tk</code> and replace with: <code>&nbsp;Megatherium</code>
+* Search for: ` _tk-` and replace with: `megatherium-`
 
 Then, update the stylesheet header in style.css and the links in footer.php with your own information. Next, update or delete this readme.
 
